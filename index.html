@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern & Futuristic Design</title>
+    <title>Bảo Trì Hệ Thống - Đoàn Minh Quân</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -13,13 +13,13 @@
         }
         body {
             font-family: 'Poppins', sans-serif;
-            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+            background: radial-gradient(circle at top right, #000000, #1f1c2c, #2d3436);
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            color: #fff;
             overflow: hidden;
-            color: white;
         }
         .container {
             text-align: center;
@@ -28,43 +28,52 @@
             background: rgba(255, 255, 255, 0.1);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(10px);
+            max-width: 600px;
+            width: 100%;
         }
         h1 {
-            font-size: 3rem;
-            background: linear-gradient(45deg, #00dbde, #fc00ff);
+            font-size: 2.5rem;
+            background: linear-gradient(45deg, #00ff87, #60efff);
             -webkit-background-clip: text;
             color: transparent;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+            text-shadow: 0 4px 10px rgba(0, 255, 135, 0.6);
         }
         p {
             font-size: 1.2rem;
             margin-top: 20px;
-            opacity: 0.8;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        .highlight {
+            color: #60efff;
+            font-weight: 700;
         }
         .btn {
             display: inline-block;
             margin-top: 30px;
-            padding: 15px 30px;
+            padding: 12px 30px;
             font-size: 1.1rem;
-            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
             color: white;
             border: none;
-            border-radius: 30px;
+            border-radius: 50px;
             cursor: pointer;
-            transition: transform 0.3s ease;
-            box-shadow: 0 8px 15px rgba(255, 118, 20, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 8px 15px rgba(255, 65, 108, 0.4);
         }
         .btn:hover {
             transform: scale(1.1);
-            box-shadow: 0 10px 20px rgba(255, 118, 20, 0.6);
+            box-shadow: 0 10px 20px rgba(255, 65, 108, 0.6);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the Future</h1>
-        <p>This is a modern and futuristic design with a 3D effect.</p>
-        <button class="btn">Explore Now</button>
+        <h1>Bảo Trì Hệ Thống</h1>
+        <p>Trang web <span class="highlight">Đoàn Minh Quân</span> hiện đang trong quá trình nâng cấp và bảo trì.</p>
+        <p>Chúng tôi đang làm việc để mang đến cho bạn một giao diện mới <span class="highlight">đẳng cấp hơn</span> cùng nhiều tính năng hiện đại.</p>
+        <p>Cảm ơn vì đã kiên nhẫn. Hãy quay lại sớm để khám phá giao diện hoàn toàn mới!</p>
+        <button class="btn">Trở Lại Sau</button>
     </div>
 </body>
 </html>
